@@ -25,9 +25,8 @@ document.write('\
         <ul>\
           <li><a href="smc.html">Stepper Motor Controllers</a></li>\
           <li><a href="motors.html">Opto mechanics</a></li>\
-          <li><a href="#">Photodiodes</a></li>\
+          <!--<li><a href="#">Photodiodes</a></li>\
           <li><a href="#">Universal Boards</a></li>\
-            <!--\
             <li>\
             <a href="#">Submenu</a>\
             <ul>\
