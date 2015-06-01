@@ -9,10 +9,9 @@ document.write('\
     <h1><img src="./images/RZ_LK_Instruments_test.svg" height="80">\
   </section>\
   <section class="4u 12u(narrower)">\
-      <h1><a href="index.html" id="logo">Better gear. <em>Better science.</em></a></h1>\
+    <h1><a href="index.html" id="logo">LK<em>-Instruments</em></a></h1>\
   </section>\
 </div>\
-\
   <!-- Logo -->\
 \
   <!-- Nav -->\
@@ -24,7 +23,7 @@ document.write('\
         <a href="products.html">Products</a>\
         <ul>\
           <li><a href="smc.html">Stepper Motor Controllers</a></li>\
-          <li><a href="motors.html">Opto mechanics</a></li>\
+          <li><a href="motors.html">Optomechanics</a></li>\
           <!--<li><a href="#">Photodiodes</a></li>\
           <li><a href="#">Universal Boards</a></li>\
             <li>\
