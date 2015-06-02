@@ -7,12 +7,7 @@
 <html>
 	<head>
 		<title>Contact - LK-Instruments</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <script src="assets/includes/head.js"></script>
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -37,7 +32,7 @@
                          Germany<br>
                          <br>
                          <i class="fa fa-phone"></i>&nbsp;+49 (0)7191 59120<br>
-                         <i class="fa fa-envelope"></i>&nbsp;<a href="mailto:info@lk-instruments.com">info&#64;lk-instruments.com</a>
+                         <i class="fa fa-envelope"></i>&nbsp;info(at)lk-instruments.com</a>
 											</p>
 										</section>
 
@@ -53,32 +48,20 @@
 												<h2>Get In Touch</h2>
 												<p>... and receive all information you need.</p>
 											</header>
-											<p>A contact form will be available here soon.</p>
-<!--
-                      <form>
-                        <div class="row 50%">
-                          <div class="6u 12u(mobilep)">
-                            <input type="text" name="name" id="name" placeholder="Name" />
-                          </div>
-                          <div class="6u 12u(mobilep)">
-                            <input type="email" name="email" id="email" placeholder="Email" />
-                          </div>
-                        </div>
-                        <div class="row 50%">
-                          <div class="12u">
-                            <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-                          </div>
-                        </div>
-                        <div class="row 50%">
-                          <div class="12u">
-                            <ul class="actions">
-                              <li><input type="submit" class="button alt" value="Send Message" /></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </form>                      
+											
+                      <form action="/system-cgi/formmail.pl" method="POST" accept-charset="ISO-8859-1">
+                        <input type=hidden name="recipient" value="info@lk-instruments.com">
+                        <input type=hidden name="env_report" value="REMOTE_HOST,HTTP_USER_AGENT,REMOTE_ADDR">
+                        <input type="hidden" name="redirect" value="http://www.lk-instruments.com/send_success.html">
+                        <input type="hidden" name="print_config" value="realname,email,subject,message">
+                        <input type=text name="realname" size="20" value="Your name"><br>
+                        <input type=text name="email" size="20" value="Your email"><br>
+                        <input type=text name="subject" size="20" value="Subject"><br>
+                        <textarea rows="2" name="message" cols="20"></textarea><br>
+                        <input type="submit" value="Submit" name="Submit">
+                      </form>
+                      
 										</article>
--->
 								</div>
 							</div>
 						</div>
