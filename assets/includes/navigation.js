@@ -6,7 +6,7 @@ document.write('\
   <section class="4u 12u(narrower)">\
   </section>\
   <section class="4u 12u(narrower)">\
-    <h1><img src="./images/RZ_LK_Instruments_test.svg" height="80">\
+    <h1><img src="./images/New_Logo_LK_Instruments.svg" height="80">\
   </section>\
   <section class="4u 12u(narrower)">\
     <h1><a href="index.html" id="logo">LK<em>-Instruments</em></a></h1>\
